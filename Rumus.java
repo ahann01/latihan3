@@ -16,4 +16,17 @@ public class Rumus {
         
         System.out.println("Luas Persegi Panjang =" +hasil);
      }
+
+    public int getHasil() {
+        return hasil;
+    }
+
+    public Rumus(int sisi, int panjang, int lebar, int hasil) {
+        this.sisi = sisi;
+        this.panjang = panjang;
+        this.lebar = lebar;
+        this.hasil = hasil;
+    }
+     
+     
 }
